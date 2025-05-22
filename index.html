@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Background</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header>
+    <h1>Exemplo de HTML</h1>
+    <nav>
+        <ol>
+            <li><a href="#sobre">Sobre</a> </li>
+            <li><a href="#servicos">Serviços</a> </li>
+            <li><a href="#contato">Contato</a> </li>
+        </ol>
+    </nav>
+</header>
+
+<main>
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos devs dedicados no aprendizado de desenvolvimento web.</p>
+        <img src="https://media.istockphoto.com/id/616902766/pt/foto/dedicado-ao-desenvolvimento-de-software-de.jpg?s=612x612&w=0&k=20&c=VlFzG7kuFJf5QwVe2qhRIAA0OlYoDVLKPNoWNjewkl0=" alt="descricao" width="300" height="200">
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Criação de Sites</li>
+            <li>Consultoria Online</li>
+            <li>Workshops e treinamentos</li>
+        </ul>
+    </section>
+
+    <section id=contato>
+        <h2>Fale Conosco</h2>
+        <form id="formulario-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome."/>
+
+            <label for="nome">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu email."/>
+
+            <label for="assunto">Assunto</label>
+            <select id="assunto" name="assunto" required>
+                <option value="disabled selected">Escolha um assunto</option>
+                <option value="orcamento">Orçamento</option>
+                <option value="suporte">Suporte</option>
+                <option value="parceria">Parceria</option>
+                <option value="outros">Outros</option>
+            </select>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Sua mensagem..." required></textarea>
+            <label class="checkbox-label">
+                <input type="checkbox" id="termos" name="termos" required>
+                Aceito os <a href="#" style="color:#00bcd4;text-decoration:underline;">termos<a/>
+            </label>
+            <button type ="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p id="rodape">&copy;<span id="ano">2025</span>
+    Exemplo HTML. Todos os direitos reservados.</p>
+</footer>
+<script src="scripts.js"></script>
+</body>
+</html>
+
+<!--comentario-->
+
+
