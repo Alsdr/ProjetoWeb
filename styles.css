@@ -99,6 +99,7 @@ label.checkbox-label{
     user-select: none;
 }
 button{
+    width: 100%;
     padding: 10px 15px;
     background-color: #00ffc3;
     color: #000;
@@ -117,5 +118,3 @@ footer{
     color: #aaaaaa;
     font-size: 0.9rem;
 }
-
-{}
