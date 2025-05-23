@@ -16,7 +16,7 @@ header {
     background: rgba(255, 255, 255, 0.05);
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.30);
     margin-bottom: 30px;
 }
 header h1 {
@@ -65,4 +65,28 @@ h2{
 
 p,li,label{
     font-size: 1rem;
+}
+img{
+    max-width: 100%;
+    max-height: 50%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea, select{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+input:focus, textarea:focus,select:focus{
+    outline: 2px solid #00bcd4;
 }
