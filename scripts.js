@@ -33,3 +33,5 @@ document.getElementById('formulario-contato').addEventListener('submit', functio
     );
     this.reset(); // Limpa o formulário após envio
 });
+
+document.getElementById('ano').textContent = new Date()getFullYear();
