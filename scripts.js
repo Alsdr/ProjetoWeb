@@ -35,3 +35,4 @@ document.getElementById('formulario-contato').addEventListener('submit', functio
 });
 
 document.getElementById('ano').textContent = new Date()getFullYear();
+//
